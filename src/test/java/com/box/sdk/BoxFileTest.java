@@ -1156,9 +1156,9 @@ public class BoxFileTest {
         Assert.assertEquals(modifiedByName, info.getModifiedBy().getName());
         Assert.assertEquals(ownedByID, info.getOwnedBy().getID());
         Assert.assertEquals(roles, info.getAllowedInviteeRoles());
-        Assert.assertEquals(classificationColor, info.getClassification().getColor());
-        Assert.assertEquals(classificationDefinition, info.getClassification().getDefinition());
-        Assert.assertEquals(classificationName, info.getClassification().getName());
+        Assert.assertEquals(classificationColor, info.getBoxClassification().getColor());
+        Assert.assertEquals(classificationDefinition, info.getBoxClassification().getDefinition());
+        Assert.assertEquals(classificationName, info.getBoxClassification().getName());
         Assert.assertTrue(info.getIsExternallyOwned());
         Assert.assertTrue(info.getHasCollaborations());
     }

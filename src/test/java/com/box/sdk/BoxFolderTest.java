@@ -1116,9 +1116,9 @@ public class BoxFolderTest {
         Assert.assertEquals(roles, info.getAllowedInviteeRoles());
         Assert.assertEquals(roles, info.getAllowedSharedLinkAccessLevels());
         Assert.assertTrue(info.getIsExternallyOwned());
-        Assert.assertEquals(classificationColor, info.getClassification().getColor());
-        Assert.assertEquals(classificationDefinition, info.getClassification().getDefinition());
-        Assert.assertEquals(classificationName, info.getClassification().getName());
+        Assert.assertEquals(classificationColor, info.getBoxClassification().getColor());
+        Assert.assertEquals(classificationDefinition, info.getBoxClassification().getDefinition());
+        Assert.assertEquals(classificationName, info.getBoxClassification().getName());
     }
 
     @Test

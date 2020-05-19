@@ -1400,10 +1400,10 @@ public class BoxFolder extends BoxItem implements Iterable<BoxItem.Info> {
         }
 
         /**
-         * Gets the classification of this folder.
-         * @return the classification of this folder.
+         * Gets the classification of this folder in Box.
+         * @return the classification of this folder in Box.
          */
-        public BoxClassification getClassification() {
+        public BoxClassification getBoxClassification() {
             return this.classification;
         }
 
